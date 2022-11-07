@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #222222;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-div{
+    width: 700px;
+    margin:auto ;
+}
+.card {
+    height: 224px;
+    width:150px;
+    background-image: url("../images/card-back.jpg");
+    background-size: cover;
+    margin:10px
+}
+.card:hover{
+    cursor: pointer;
+}
